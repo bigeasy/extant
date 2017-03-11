@@ -1,0 +1,33 @@
+{
+    "name":                 "extant",
+    "version":              "9.9.9",
+    "description":
+
+      "Basically, SQL COALESCE in JavaScript; return the first value that is not null.",
+
+    "keywords":
+    [
+                            "comparator", "sort"
+    ],
+    "author":               "Alan Gutierrez <alan@prettyrobots.com>",
+    "homepage":             "https://bigeasy.github.io/extant",
+    "bugs":                 "https://github.com/bigeasy/extant/issues",
+    "license":              "MIT",
+    "repository":
+    {
+                            "type": "git",
+                            "url": "http://github.com/bigeasy/extant.git"
+    },
+    "dependencies":
+    {
+    },
+    "devDependencies":
+    {
+                            "proof":                        "1.2.x"
+    },
+    "main":                 "extant",
+    "scripts":
+    {
+                            "test": "proof platform win32 && proof test */*.t.js || t/test"
+    }
+}
