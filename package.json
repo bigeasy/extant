@@ -7,7 +7,7 @@
 
     "keywords":
     [
-                            "comparator", "sort"
+                            "coalesce"
     ],
     "author":               "Alan Gutierrez <alan@prettyrobots.com>",
     "homepage":             "https://bigeasy.github.io/extant",
