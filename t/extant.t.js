@@ -1,7 +1,7 @@
 require('proof')(2, prove)
 
-function prove (assert) {
+function prove (okay) {
     var coalesce = require('..')
-    assert(coalesce(null, null), null, 'null')
-    assert(coalesce(null, (function () {})(), 1), 1, 'coalesced')
+    okay(coalesce(null, null), null, 'null')
+    okay(coalesce(null, (function () {})(), 1), 1, 'coalesced')
 }
