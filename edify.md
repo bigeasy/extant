@@ -14,6 +14,7 @@ Basically, SQL COALESCE in JavaScript; return the first value that is not null.
 | Coverage:     | https://codecov.io/gh/bigeasy/extant       |
 | License:      | MIT                                        |
 
+Extant installs from NPM.
 
 ```
 //{ "mode": "text" }
@@ -49,7 +50,7 @@ foo()
 
 We use the name "extant" on NPM because we want the first extant argument.
 
-## Follow Along
+## Living `README.md`
 
 This `README.md` is also a unit test using the
 [Proof](https://github.com/bigeasy/proof) unit test framework. We'll use the
@@ -60,12 +61,12 @@ generally looks like this.
 //{ "code": { "tests": 13 }, "text": { "tests": 4  } }
 require('proof')(%(tests)d, async okay => {
     //{ "include": "test", "mode": "code" }
-    //{ "include": "testDisplay" }
+    //{ "include": "proof" }
 })
 ```
 
 ```javascript
-//{ "name": "testDisplay", "mode": "text" }
+//{ "name": "proof", "mode": "text" }
 okay('always okay')
 okay(true, 'okay if true')
 okay(1, 1, 'okay if equal')

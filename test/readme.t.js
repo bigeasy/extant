@@ -13,6 +13,8 @@
 // | CI            | https://travis-ci.org/bigeasy/extant       |
 // | Coverage:     | https://codecov.io/gh/bigeasy/extant       |
 // | License:      | MIT                                        |
+//
+// Extant installs from NPM.
 
 // ## Overview
 //
@@ -35,7 +37,7 @@
 
 // We use the name "extant" on NPM because we want the first extant argument.
 //
-// ## Follow Along
+// ## Living `README.md`
 //
 // This `README.md` is also a unit test using the
 // [Proof](https://github.com/bigeasy/proof) unit test framework. We'll use the
