@@ -2,7 +2,8 @@
 // [![codecov](https://codecov.io/gh/bigeasy/extant/branch/master/graph/badge.svg)](https://codecov.io/gh/bigeasy/extant)
 // [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 //
-// Basically, SQL COALESCE in JavaScript; return the first value that is not null.
+// Basically, SQL COALESCE in JavaScript; return the first value that is not
+// null-like.
 //
 // | What          | Where                                      |
 // | --- | --- |

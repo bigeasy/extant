@@ -3,7 +3,7 @@
     "version":              "2.0.0-alpha.3",
     "description":
 
-      "Basically, SQL COALESCE in JavaScript; return the first value that is not null.",
+      "Basically, SQL COALESCE in JavaScript; return the first value that is not null-like.",
 
     "keywords":
     [
