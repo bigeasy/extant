@@ -1,6 +1,6 @@
 {
     "name":                 "extant",
-    "version":              "2.0.0-alpha.4",
+    "version":              "2.0.0-alpha.5",
     "description":
 
       "Basically, SQL COALESCE in JavaScript; return the first value that is not null-like.",
